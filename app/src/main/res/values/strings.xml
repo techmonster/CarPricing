@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">CarPricing</string>
+    <string name="action_settings">Settings</string>
+    <string name="msrpFinder">Welcome to the M.S.R.P. Finder!</string>
+    <string name="m_s_r_p">M.S.R.P.</string>
+    <string name="m_s_r_p_is">M.S.R.P. is&#8230;</string>
+
+
+    <string-array name="array1">
+        <item>Select Maker</item>
+        <item>Ford</item>
+        <item>Chevy</item>
+        <item>Audi</item>
+    </string-array>
+
+    <string-array name="ford_array">
+        <item>Select Model</item>
+        <item>Mustang</item>
+        <item>Escape</item>
+        <item>Fusion</item>
+    </string-array>
+    <string-array name="chevy_array">
+        <item>Select Model</item>
+        <item>Camaro</item>
+        <item>Malibu</item>
+        <item>Tahoe</item>
+    </string-array>
+    <string-array name="audi_array">
+        <item>Select Model</item>
+        <item>3</item>
+        <item>4</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="mustang_body_array">
+        <item>Select Body</item>
+        <item>V6 Fastback</item>
+        <item>GT Premium</item>
+        <item>Shelby GT350 R</item>
+    </string-array>
+    <string-array name="escape_body_array">
+        <item>Select Body</item>
+        <item>S</item>
+        <item>SE</item>
+        <item>Titanium</item>
+    </string-array>
+    <string-array name="fusion_body_array">
+        <item>Select Body</item>
+        <item>FS</item>
+        <item>Hybrid SE</item>
+        <item>Energi Platinum</item>
+    </string-array>
+
+    <string-array name="tahoe_body_array">
+        <item>Select Body</item>
+        <item>LS</item>
+        <item>LT</item>
+        <item>LTZ</item>
+    </string-array>
+    <string-array name="camaro_body_array">
+        <item>Select Body</item>
+        <item>1LS</item>
+        <item>ZL1</item>
+        <item>Z28</item>
+    </string-array>
+    <string-array name="malibu_body_array">
+        <item>Select Body</item>
+        <item>L</item>
+        <item>1LT</item>
+        <item>Premier</item>
+    </string-array>
+
+    <string-array name="three_body_array">
+        <item>Select Body</item>
+        <item>A3</item>
+        <item>S3</item>
+    </string-array>
+    <string-array name="four_body_array">
+        <item>Select Body</item>
+        <item>A4</item>
+        <item>S4</item>
+    </string-array>
+    <string-array name="seven_body_array">
+        <item>Select Body</item>
+        <item>A7</item>
+        <item>S7</item>
+        <item>RS 7</item>
+    </string-array>
+</resources>

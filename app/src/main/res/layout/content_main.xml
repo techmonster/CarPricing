@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.dtcc.nhollowa.carpricing.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#f5f0f9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/msrpFinder"
+        android:textSize="23sp"
+        android:id="@+id/textView"
+        android:textColor="#b5aeae"
+        android:background="#f5f7ba"
+        android:gravity="center_horizontal" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:background="#d7f1dd" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_alignParentStart="true"
+        android:background="#dce5df"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignParentStart="true"
+        android:background="#c9f9f9"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/m_s_r_p_is"
+        android:id="@+id/msrpLabel"
+        android:layout_below="@+id/spinner3"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/displayView"
+        android:textColor="#1616e3"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="#d3f0fb"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/msrpLabel"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
